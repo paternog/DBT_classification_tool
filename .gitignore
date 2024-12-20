@@ -1,0 +1,13 @@
+*nii.gz
+**nii.gz
+*.csv
+**.csv
+*dump*
+**dump*
+*DS_Store
+**DS_Store
+*__pycache__
+**__pycache__
+*.dat
+*.[oa]
+
