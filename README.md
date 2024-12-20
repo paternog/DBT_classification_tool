@@ -1,5 +1,5 @@
-# DBT_classifier
-DBT_classifier is a framework for the automatic classification of Digital Breast Tomosynthesis (DBT) images. It is composed of a set of a scripts and functions that enable the user to carry out the whole task, from the dataset preparation to the calculation of the relevant metrics and the activation maps useful for explainability purposes.
+# DBT_classification_tool
+DBT_classification_tool is a framework for the automatic classification of Digital Breast Tomosynthesis (DBT) images. It is composed of a set of a scripts and functions that enable the user to carry out the whole task, from the dataset preparation to the calculation of the relevant metrics and the activation maps useful for explainability purposes.
 
 The slices of each DBT scan are classified in two ('Negative', 'Positive/lesion') or three classes ('Negative', 'Positive', 'Benign') independently form each other. Therefore, the core of the classification algorithm is a two-dimensional Convolutional Neural Network (CNN), choosen among different available architectures both standard and custom.
 
@@ -31,5 +31,5 @@ pip install -r requirements.txt
 
 ## Version
 version: 5.0, 
-date: 18-03-2024
+date: 20-12-2024
 
