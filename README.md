@@ -30,6 +30,6 @@ pip install -r requirements.txt
 ```
 
 ## Version
-version: 5.0, 
-date: 20-12-2024
+version: 5.1, 
+date: 10-01-2025
 
