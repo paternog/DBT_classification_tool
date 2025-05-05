@@ -83,7 +83,7 @@ if not sys.warnoptions:
 ## Input
 #####################################################################################################################
 # Define the data structure
-dataset_path = '/media/paterno/SSD1TB/'
+dataset_path = '/media/paterno/SSD1TB/DBT_DUKE_sample_dataset/'
 dataset_structure = ['DUKE_fully_processed_sample_dataset_all6PcTest_train/', \
                      'DUKE_fully_processed_sample_dataset_all6PcTest_test/']
 classes = ('negative', 'positive')
