@@ -68,7 +68,7 @@ def configcell_text_and_colors(array_df, lin, col, oText, facecolors, posi, fz, 
         else:
             per_ok = per_err = 0
 
-        per_ok_s = ['%.2f%%'%(per_ok), '100%'] [per_ok == 100]
+        per_ok_s = ['%.2f%%'%(per_ok), '100%'] [int(per_ok == 100)]
 
         #text to DEL
         text_del.append(oText)
